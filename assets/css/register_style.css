@@ -1,0 +1,116 @@
+
+
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url("../fonts/Bellota-LightItalic.otf");
+}
+
+@font-face {
+    font-family: 'Bellota-BoldItalic';
+    src: url("../fonts/Bellota-BoldItalic.otf");
+}
+
+/* Global css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(122, 31, 31);
+}
+
+form {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #6cc75a;
+}
+
+
+/* Custom css */
+#wrapper {
+    background-image: url("../images/backgrounds/background-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 100vh;
+    /* min-height: 600px; */
+    /* min-width: 950px; */
+}
+
+.login_box {
+    font-family: 'Bellota-LightItalic', 'sans-serif';
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 9%;
+    width: 35%;
+    background-color: white;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.92;
+}
+
+.login_header {
+    font-family: 'Bellota-LightItalic', 'sans-serif';
+    width: 100%;
+    height: 90px;
+    background-color: #6cc75a;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.login_header h2 {
+    font-family: 'Bellota-BoldItalic', 'sans-serif';
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: #000 0.5px 0.5px 0px;
+    font-size: 250%;
+}
+
+
+input[type="submit"] {
+     background-color: #6cc75a;
+     padding: 5px 10px 5px 10px;
+     border: 1px solid #6cc75a;
+     border-radius: 3px;
+     margin: 5px 0;
+     color: black;
+     font-family: 'Bellota-LightItalic', 'sans-serif';
+     font-size: 100%;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 2px solid #8b8b8b;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #6cc75a;
+} 
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #c7825a;
+} 
+
+#second {
+    display: none;
+}
